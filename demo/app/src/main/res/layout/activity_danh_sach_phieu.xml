@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F3F3F3">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách phiếu giao dịch"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#BA0A0A"
+        android:gravity="center"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã hàng để tìm..."
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/lv_phieu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="#FFFFFF" />
+</LinearLayout>

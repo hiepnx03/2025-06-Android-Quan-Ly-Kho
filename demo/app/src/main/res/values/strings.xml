@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuanLyKho</string>
+    <string name="statistics_month">Thống kê tháng: %s</string>
+    <string name="total_transaction_value">Tổng giá trị giao dịch: %s VNĐ</string>
+    <string name="total_inventory">Tổng số lượng tồn: %d</string>
+    <string name="import_transaction_count">Số lượng phiếu nhập: %d</string>
+    <string name="export_transaction_count">Số lượng phiếu xuất: %d</string>
+    <string name="total_transactions">Tổng số giao dịch: %d</string>
+    <string name="error_loading_data">Không thể tải dữ liệu</string>
+</resources>
